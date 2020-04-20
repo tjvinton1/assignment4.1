@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Contact a Breackfast</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+    <style>
+        h1,
+        h2 {
+            color: rgb(216, 69, 65);
+            font-family: fantasy;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html"><img src="images/logo.jpg" height="100" alt="logo"></a></li>
+                <li><a href="features.html">Features</a></li>
+                <li><a href="store.html">Store</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <form action="results.html">
+            <p>
+                <label for="firstname">First Name:</label>
+                <input type="text" name="firstname" id="firstname">
+            </p>
+
+            <p>
+                <label for="lastname">Last Name:</label>
+                <input type="text" name="lastname" id="lastname">
+            </p>
+
+            <p>
+                <label for="email">Email:</label>
+                <input type="text" name="email" id="email">
+            </p>
+
+            <p>
+                <label for="phone">Phone:</label>
+                <input type="text" name="phone" id="phone">
+            </p>
+
+            <p>
+                <label for="address">Address:</label>
+                <input type="text" name="address" id="address">
+            </p>
+
+            <p>
+                <label for="company">Company:</label>
+                <input type="text" name="Company" id="company">
+            </p>
+
+            <p>
+                <label for="how-you-heard">How did you hear about us?
+                    <select name="How you heard" id="how-you-heard">
+                        <option value="select">Select</option>
+                        <option value="email">Email</option>
+                        <option value="ad">Advertisment</option>
+                        <option value="friend">Friend</option>
+                        <option value="colleague">Colleague</option>
+                        <option value="web">Wedsite</option>
+                        <option value="search">Search</option>
+                    </select>
+                </label>
+            </p>
+            <p>
+                <label for="comments">Comments</label>
+                <textarea name="comments" id="comments" rows="4" cols="10"></textarea>
+            </p>
+
+            <p>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </p>
+
+        </form>
+
+    </main>
+
+    <footer>
+        &copy; Timothy Vinton 2020 <br>
+        <a href="mailto:tvinton1@mail.naz.edu">Email me!</a>
+    </footer>
+
+</body>
+
+</html>
